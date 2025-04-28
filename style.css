@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    background-image: url(resources/backgroundimg2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #121826;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+    
+  .author-info {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px; 
+    font-family: Outfit; 
+  }
+  .author-info a {
+    color:rgb(210, 190, 74);
+  }
+  
+
+  .card-component {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    max-width: 1000px;
+    margin:100px;
+    margin-top:35px;
+  
+
+
+  }
+
+  .card {
+    background-color: #212936;
+    border-radius: 20px;
+    height:400px;
+    width:300px;
+
+  }
+
+ .title {
+    text-align: center;
+    color:#E5E7EB;
+    font-size: 40px;
+    margin-top: 60px; /
+    margin-bottom: 40px; 
+    font-family: Outfit; 
+    font-weight:600;
+  }
+
+  .title-p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px; /
+    margin-bottom: 10px; 
+    font-family: Outfit; 
+    color:#D2D5DA;
+    font-weight: 400;
+  }
+  .circle-one, .circle-two, .circle-three {
+    height:40px;
+    width:40px;
+    border-radius: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 0 auto 10px auto;
+  position:relative;
+  right:100px;
+  top:20px;
+  
+  }
+.circle-one {
+  background-color: #FCEED8;
+  
+}
+.circle-two {
+  background-color: #DEE9FC;
+}
+.circle-three {
+  background-color: #FBE5E6;
+
+}
+h2 {
+ 
+  margin-bottom:10px;
+  font-family: Outfit; 
+  font-size:20px;
+  font-weight:600;
+  color:#E5E7EB;
+}
+.card-img {
+  object-fit: cover;
+  width:100%;
+  border-radius: 40px;
+  padding:20px;
+  position:relative;
+  bottom:20px
+  
+}
+
+.card-content {
+  padding:20px;
+
+}
+
+
+.card-content p {
+  font-size:14px;
+  font-weight:400;
+  font-family: Outfit; 
+  color:#D2D5DA;
+}
+
+.card:hover {
+  background-color: #2a3448; /
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  transform: translateY(-8px);
+}
+
+/*Media Queries for responsive design*/
+/* for 1024 screensize */
+@media (max-width: 1024px) {
+  .card-component {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+/*for 640px screensize */
+@media (max-width: 640px) {
+  .card-component {
+    grid-template-columns: 1fr;
+    .author-info {
+      font-size: 12px;
+    }
+  }
+}
+
+/* for Iphone 14 Promax*/
+
+@media (max-width: 640px) {
+  .card-component {
+    grid-template-columns: 1fr;
+    margin:40px 50px;
+  }
+}
