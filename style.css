@@ -17,7 +17,7 @@
   }
   
     
-  .author-info {
+  footer {
     font-size: 14px;
     text-align: center;
     color: white;
@@ -25,7 +25,7 @@
     margin-top:20px;
     font-family: Outfit; 
   }
-  .author-info a {
+  footer a {
     color:rgb(210, 190, 74);
   }
 
