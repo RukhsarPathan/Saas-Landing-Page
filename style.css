@@ -22,22 +22,26 @@
     text-align: center;
     color: white;
     margin-bottom: 20px; 
+    margin-top:20px;
     font-family: Outfit; 
   }
   .author-info a {
     color:rgb(210, 190, 74);
   }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+   
+  }
   
 
   .card-component {
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 300px);
     gap: 70px;
-    max-width: 1000px;
-    margin:100px;
-    margin-top:35px;
-  
-
+    justify-content: center;
 
   }
 
@@ -53,20 +57,20 @@
     text-align: center;
     color:#E5E7EB;
     font-size: 40px;
-    margin-top: 60px; /
-    margin-bottom: 40px; 
+    margin-top: 30px; 
+    margin-bottom:30px; 
     font-family: Outfit; 
     font-weight:600;
+    
   }
 
   .title-p {
     text-align: center;
     font-size: 14px;
-    margin-top: 20px; /
-    margin-bottom: 10px; 
     font-family: Outfit; 
     color:#D2D5DA;
     font-weight: 400;
+    margin-bottom: 30px;
   }
   .circle-one, .circle-two, .circle-three {
     height:40px;
