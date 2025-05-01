@@ -10,7 +10,7 @@ The project focuses on building a **modern, clean, and fully responsive** market
 
 ## 📸 Live Preview
 
-[Click here to view the Live Project!][https://rukhsarpathan.github.io/Saas-Landing-Page/]
+[Click here to view the Live Project!](https://rukhsarpathan.github.io/Saas-Landing-Page/)
 
 
 > *(Insert a screenshot here later if you want!)*  
